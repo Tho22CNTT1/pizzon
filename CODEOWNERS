@@ -1,0 +1,4 @@
+﻿# Mỗi thay đổi trong các thư mục này sẽ cần reviewer mặc định
+/apps/backend/   @your-backend-lead
+/apps/storefront/ @your-frontend-lead
+/apps/admin/      @your-admin-lead

@@ -1,0 +1,10 @@
+﻿{
+  "name": "pizzon",
+  "private": true,
+  "packageManager": "pnpm@9",
+  "scripts": {
+    "dev": "pnpm -r --filter ./apps/* run dev",
+    "lint": "pnpm -r --filter ./apps/* run lint || exit 0",
+    "build": "pnpm -r --filter ./apps/* run build || exit 0"
+  }
+}
